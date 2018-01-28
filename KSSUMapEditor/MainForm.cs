@@ -16,5 +16,16 @@ namespace KSSUMapEditor
         {
             InitializeComponent();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutDialog about = new AboutDialog();
+            about.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
