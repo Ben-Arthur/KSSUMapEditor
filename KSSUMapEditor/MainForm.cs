@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace KSSUMapEditor
 {
@@ -14,6 +15,7 @@ namespace KSSUMapEditor
     {
         public MainForm()
         {
+            Icon = Properties.Resources.KSSU;
             InitializeComponent();
         }
 
@@ -26,6 +28,12 @@ namespace KSSUMapEditor
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void repoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo repoLink = new ProcessStartInfo("https://github.com/BenHall-7/KSSUMapEditor");
+            Process.Start(repoLink);
         }
     }
 }

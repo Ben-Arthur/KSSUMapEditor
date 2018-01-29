@@ -62,6 +62,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AboutDialog";
+            this.ShowIcon = false;
             this.Text = "About";
             ((System.ComponentModel.ISupportInitialize)(this.pb_about)).EndInit();
             this.ResumeLayout(false);
