@@ -61,22 +61,22 @@ namespace KSSUMapEditor.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon Birdon {
-            get {
-                object obj = ResourceManager.GetObject("Birdon", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap FoxImage {
             get {
                 object obj = ResourceManager.GetObject("FoxImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Kirby_1 {
+            get {
+                object obj = ResourceManager.GetObject("Kirby_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

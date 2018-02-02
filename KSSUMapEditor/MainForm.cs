@@ -15,7 +15,7 @@ namespace KSSUMapEditor
     {
         public MainForm()
         {
-            Icon = Properties.Resources.KSSU;
+            Icon = Properties.Resources.Kirby_1;
             InitializeComponent();
         }
 

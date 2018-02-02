@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\Birdon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Kirby_1.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>
@@ -129,7 +129,7 @@
     <Resource Include="Resources\KSSU.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Birdon.ico" />
+    <Content Include="Resources\Kirby_1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

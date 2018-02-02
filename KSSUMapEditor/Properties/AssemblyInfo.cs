@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("KSSUMapEditor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Map / Spritemap editor for Kirby: Super Star Ultra")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("KSSUMapEditor")]
